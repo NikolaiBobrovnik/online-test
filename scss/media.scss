@@ -1,0 +1,74 @@
+/* Larger than mobile */
+@media (max-width: 1350px) {
+  .header-wrapper {
+    background-size: cover;
+  }
+  .section-wrapper {
+    background: #FAF8F4 url(../images/section-wrapper-fon.png) no-repeat 20px bottom;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-entrance {
+    margin: 6px 0 0 0;
+  }
+  .section-wrapper {
+    background: #FAF8F4;
+  }
+  .section-test {
+    justify-content: center;
+  }
+
+  .section-test-box {
+    padding: 92px 0 95px 0;
+  }
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 1000px) {
+  .footer {
+    text-align: center;
+    padding: 54px 15px 55px 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-logo {
+    flex: 1;
+    margin-left: 0;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-entrance {
+    display: none;
+  }
+  .mobile-nav-toggle {
+    display: flex;
+  }
+  .header-center {
+    margin: 169px auto 130px;
+  }
+  .header-center__title {
+    font-size: 45px;
+  }
+  .header-center__text {
+    font-size: 20px;
+  }
+}
+
+/* Larger than tablet */
+@media (max-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (max-width: 550px) {
+  .section-test-box__button {
+    margin: 45px auto 58px;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (max-width: 400px) {
+}
